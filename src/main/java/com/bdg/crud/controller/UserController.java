@@ -52,4 +52,5 @@ public class UserController {
     public long countUsers() {
         return userService.countUsers();
     }
+
 }
