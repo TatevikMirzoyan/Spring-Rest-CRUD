@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from com.bdg.crud.repository -->
     </parent>
     <groupId>com.bdg</groupId>
-    <artifactId>crud</artifactId>
+    <artifactId>crud_spring_rest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>crud</name>
     <description>Demo project for Spring Boot</description>
