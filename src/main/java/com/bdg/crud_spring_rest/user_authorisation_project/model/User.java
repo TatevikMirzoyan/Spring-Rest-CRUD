@@ -1,4 +1,4 @@
-package com.bdg.crud_spring_rest.model;
+package com.bdg.crud_spring_rest.user_authorisation_project.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,7 +1,7 @@
-package com.bdg.crud_spring_rest.service;
+package com.bdg.crud_spring_rest.user_authorisation_project.service;
 
-import com.bdg.crud_spring_rest.model.User;
-import com.bdg.crud_spring_rest.repository.UserRepository;
+import com.bdg.crud_spring_rest.user_authorisation_project.model.User;
+import com.bdg.crud_spring_rest.user_authorisation_project.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

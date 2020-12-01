@@ -1,7 +1,7 @@
-package com.bdg.crud_spring_rest.controller;
+package com.bdg.crud_spring_rest.user_authorisation_project.controller;
 
-import com.bdg.crud_spring_rest.model.User;
-import com.bdg.crud_spring_rest.service.UserService;
+import com.bdg.crud_spring_rest.user_authorisation_project.model.User;
+import com.bdg.crud_spring_rest.user_authorisation_project.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -34,7 +34,7 @@ public class UserController {
     }
 
     @PutMapping(path = "update/{id}")
-    public void updateUser(@PathVariable int id,@RequestBody User user) {
+    public void updateUser(@PathVariable int id, @RequestBody User user) {
         userService.updateUser(id, user);
     }
 
